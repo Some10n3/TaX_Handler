@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['TaxHandler.py'],
+    ['TaxHandler.py', 'TaxHandlerComponents.py'],
     pathex=[],
     binaries=[],
     datas=[],
-    hiddenimports=['openpyxl'],
+    hiddenimports=['openpyxl', 'pywin32', 'PyQt5'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
